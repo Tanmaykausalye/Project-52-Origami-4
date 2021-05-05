@@ -1,0 +1,138 @@
+body{
+
+background:#f0fff0;
+margin:0px; 
+}
+
+.menu{
+
+display: flex;
+flex-wrap: wrap;
+/* flex-direction:row; */
+justify-content:space-between;
+background-color:#7dfa00
+}
+
+.message h3{
+
+display: flex;
+justify-content:center;
+text-align: center;
+/* align-items: center; */
+}
+
+.t p{
+
+display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+.image{
+
+/* display : flex; */
+/* flex-wrap: wrap; */
+/* justify-content:space-between; */
+/* flex-wrap:wrap-reverse */
+display:flex;
+flex-wrap: wrap;
+margin-left : 100px;
+margin-right:100px;
+background-color: floralwhite;
+}
+
+.image img{
+
+border : 10px solid goldenrod;
+border-radius: 50px;
+
+}
+
+.item{
+
+margin-left: 70px;
+margin-top: 30px;
+color:deeppink
+
+}
+
+a:link{
+
+    color:#7fff00
+}
+
+a:hover{
+
+   color:#ff8c00
+
+}
+
+.youtube{
+
+margin-top: 10px;
+
+}
+
+
+.item:hover{
+
+    color: #90ee90;
+}
+
+.item:hover img{ 
+
+ transform : scale(1.2); 
+ margin-bottom: 20px;
+
+ }
+
+.item{
+
+position : relative;
+
+}
+
+.item p{
+    
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform : translate(-50%,-50%);
+    opacity:0;
+    color:coral;
+}
+
+.item:hover p{
+
+    opacity:1
+}
+
+.item:hover img{
+
+    opacity:0.2;
+  /*  this is to make images blur
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+*/
+}
+
+a:link{
+
+text-decoration:wavy;
+
+}
+
+.panda{
+
+    border: 0.1cm;
+
+}
+
+.up{
+
+margin-top: 10px;
+margin-right: 120px;
+}
+
+
+
